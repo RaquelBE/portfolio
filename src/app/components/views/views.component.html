@@ -1,0 +1,179 @@
+<!-- Intro -->
+<section id="intro" class="intro text-center">
+    <div class="parallax-container">
+        <div class="parallax">
+            <h1>HOLA, SOY RAQUEL</h1>
+            <p class="subtitle">Frontend Developer</p>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="text-center">
+    <div class="container">
+        <h2>Acerca de mí</h2>
+        <div id="image-profile">
+        </div>
+        <p class="definition">
+            Hola! Mi nombre es Raquel Blázquez Estrada y soy frontend development.
+
+            Estudié un bootcamp de fullstack, pero lo que me aposiona y con lo que disfruto es con el mundo frontend.
+            <br>
+            Mi aspiración es poder tener una carrera donde poder ofrecer mis conocimientos de front y poder seguir
+            disfrutando de esta apasionante profesión.
+            <br>
+            <br>
+            En mi tiempo libre me gusta poder salir a la naturaleza y disfrutar de ella.
+            Mi mayor hobby son los animales, ¡me encantan!
+        </p>
+    </div>
+</section>
+
+<!-- Experience -->
+<section id="experience" class="text-center pt-2">
+    <div class="mt-5">
+        <h2>Experiencia</h2>
+        <p class="info">Llevo como frontend development 1 año y siempre estoy ansiosa por aprender más de esta industria
+            que avanza tan rápido.</p>
+    </div>
+
+    <div class="tecnologies text-center p-2">
+        <h3>Algunas tecnologías con las que he trabajado:</h3>
+        <div class="icons">
+            <i class='bx bxl-react bx-tada' style="animation-delay: 0"></i>
+            <i class='bx bxl-angular bx-tada' style="animation-delay: 50ms"></i>
+            <i class='bx bxl-vuejs bx-tada' style="animation-delay: 100ms"></i>
+            <i class='bx bxl-javascript bx-tada' style="animation-delay: 150ms"></i>
+            <i class='bx bxl-typescript bx-tada' style="animation-delay: 200ms"></i>
+            <i class='bx bxl-java bx-tada' style="animation-delay: 250ms"></i>
+            <i class='bx bxl-html5 bx-tada' style="animation-delay: 300ms"></i>
+            <i class='bx bxl-css3 bx-tada' style="animation-delay: 350ms"></i>
+            <i class='bx bxl-bootstrap bx-tada' style="animation-delay: 400ms"></i>
+            <i class='bx bxl-git bx-tada' style="animation-delay: 450ms"></i>
+            <i class='bx bxl-github bx-tada' style="animation-delay: 500ms"></i>
+            <i class='bx bxl-nodejs bx-tada' style="animation-delay: 550ms"></i>
+            <i class='fab fa-npm bx-tada' style="animation-delay: 600ms"></i>
+            <i class='bx bxl-mongodb bx-tada' style="animation-delay: 650ms"></i>
+            <i class='bx bxl-postgresql bx-tada' style="animation-delay: 700ms"></i>
+        </div>
+    </div>
+    <h5>Si necesitas saber má sobre mí, aquí podrás encontrar mi trayectoria profesional</h5>
+    <button (click)="downloadCV()">Descargar CV</button>
+</section>
+
+<!-- Work -->
+<section id="work" class="text-center">
+    <div class="mt-5">
+        <h2>Proyectos</h2>
+    </div>
+    <div class="articles">
+        <div class="proyect-detail">
+            <div class="proyect-image" style="background-image: url(../../../assets/proyectos/mySites.png)"></div>
+            <!-- Scrollable modal -->
+            <button class="modal-button" type="button" data-bs-toggle="modal" data-bs-target="#modalSites">
+                Ver detalles
+            </button>
+        </div>
+        <div class="modal fade " id="modalSites" tabindex="-1" aria-labelledby="modalSitesLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">My Sites</h5>
+                    </div>
+                    <div class="modal-body">
+                        <img src=".../../../assets/proyectos/mySites.png" height="100px">
+                        <p class="mt-4">En este sitio web, puedes agregar los lugares más interesantes que has
+                            visitado
+                            en
+                            todo el mundo.
+                            Puedes agregar una foto y todo lo que quieras recordar de ese lugar.
+                            Si alguna vez olvidas lo que hiciste en ese lugar, sólo tienes que ir al marcador y
+                            darle
+                            click
+                            para ver el detalle y recordar el gran momento que pasaste allí.</p>
+                        <p>Puedes ver la aplicación en este <a href="https://my-sites-rouge.vercel.app/home"
+                                target="_blank">enlace</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="modal-button-close" type="button" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="proyect-detail">
+            <div class="proyect-image" style="background-image: url(../../../assets/proyectos/wallasports.png)">
+            </div>
+            <button class="modal-button" type="button" data-bs-toggle="modal" data-bs-target="#modalWallasports">
+                Ver detalles
+            </button>
+        </div>
+        <div class="modal fade " id="modalWallasports" tabindex="-1" aria-labelledby="modalWallasportsLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Wallasports</h5>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../../../assets/proyectos/wallasports.png" height="100px">
+                        <p class="mt-4">Es una web donde podrás vender tus productos deportivos a otros usuarios, y
+                            donde
+                            podras ponerte en contacto con el otro vendedor para entablar una conversación
+                            También podrás añadir a favoritos aquellos productos que te gusten.</p>
+                        <p>Puedes ver la aplicación en este enlace: <a href="https://wallasports.netlify.app/"
+                                target="_blank">Enlace</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="modal-button-close" type="button" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="proyect-detail">
+            <div class="proyect-image" style="background-image: url(../../../assets/proyectos/agarrame.png)"></div>
+
+            <button class="modal-button" type="button" data-bs-toggle="modal" data-bs-target="#modalAgarrame">
+                Ver detalles
+            </button>
+        </div>
+        <div class="modal fade " id="modalAgarrame" tabindex="-1" aria-labelledby="modalAgarrameLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Wallasports</h5>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../../../assets/proyectos/agarrame.png" height="100px">
+                        <p class="mt-4">En este juego podrás echarte una partida recordando tu juventud.
+                            Serás Mushu e irás cogiendo los objetos que caen, cada objeto tiene una puntuación,
+                            ¡pero
+                            ojo!
+                            no cojas a Shan Yu o la partida habrá terminado.
+                        </p>
+                        <p>Puedes echas una partida en este enlace: <a href="https://raquel2292.github.io/Agarra-me-/"
+                                target="_blank">Enlace</a></p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="modal-button-close" type="button" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="text-center pt-2">
+    <div class="mt-5">
+        <h2>Contacto</h2>
+    </div>
+    <img src="../../../assets/sobre.png" class="icon-large">
+    <p class="text-center mt-3">Si tienes una idea para un proyecto o quieres que hablemos un rato, ¡no dudes en
+        enviarme un correo electrónico!
+    </p>
+    <button type="button" (click)="sendEmail()">¡Hola!</button>
+</section>

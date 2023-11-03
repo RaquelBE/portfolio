@@ -1,0 +1,14 @@
+.bg-dark {
+  margin: 0;
+  padding: 20px;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
