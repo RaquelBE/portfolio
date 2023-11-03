@@ -1,3 +1,9 @@
 .name {
     font-size: 16px;
 }
+
+.enlaces {
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+}
