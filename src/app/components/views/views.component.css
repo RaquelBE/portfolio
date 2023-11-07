@@ -74,9 +74,6 @@ h1 {
   animation: tracking-in-expand-fwd-top 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
- 
-
-
 @-webkit-keyframes tracking-in-expand-fwd-top {
   0% {
     letter-spacing: -0.5em;
@@ -137,7 +134,7 @@ h1 {
 }
 
 #experience {
-  height: 95vh;
+  height: 92vh;
   background-color: rgb(252, 239, 228);
 }
 
@@ -165,24 +162,6 @@ h1 {
   position: relative;
   font-size: 3em;
 }
-
-/* .proyect-image {
-  height: 200px;
-  width: 200px;
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%;
-  display: inline-block;
-  box-shadow: 0 3px 20px rgb(116, 114, 113);
-}
-
-.proyect-detail {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-} */
 
 button {
   position: relative;
@@ -246,7 +225,7 @@ p {
   }
 
   button {
-    width: 10%;
+    width: 15%;
     margin-top: 30px;
   }
 
