@@ -27,4 +27,6 @@ export class ViewsComponent {
   sendEmail() {
     window.open('mailto:raquel.blazquez.estrada@gmail.com', '_blank');
   }
+
+  
 }
