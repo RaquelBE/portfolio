@@ -134,7 +134,7 @@ h1 {
 }
 
 #experience {
-  height: 92vh;
+  height: 80vh;
   background-color: rgb(252, 239, 228);
 }
 
@@ -196,13 +196,6 @@ p {
 .icon-large {
   width: 60px;
   height: 60px;
-}
-
-.card {
-  display: flex;
-  justify-content: center;
-  margin: 30px auto;
-  width: 18rem;
 }
 
 .flip-card {
