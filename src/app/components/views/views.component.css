@@ -244,8 +244,6 @@ p {
 }
 
 .flip-card-back {
-  background-color: rgba(187, 187, 187, 0.13);
-  color: white;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
