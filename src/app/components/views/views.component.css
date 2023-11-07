@@ -205,6 +205,7 @@ p {
   height: 300px;
   perspective: 1000px;
   margin: 20px auto;
+  cursor: pointer;
 }
 .flip-card-inner {
   position: relative;
@@ -243,9 +244,13 @@ p {
   justify-content: center;
   align-items: center;
   padding: 20px;
+  background-color: rgb(252, 239, 228);
   position: relative; /* Añadido para posicionar el tooltip */
 }
 
+.modal-button {
+  background-color: white;
+}
 @media (min-width: 850px) {
   * p {
     font-weight: 450;
