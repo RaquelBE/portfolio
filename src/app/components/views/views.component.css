@@ -180,6 +180,16 @@ button {
   box-shadow: 0 3px 20px rgb(226, 106, 8);
 }
 
+.button-email {
+  animation: slide-in 1s forwards;
+}
+
+@keyframes slide-in {
+  0% { left: -100px; opacity: 0; }
+  50% { opacity: 1; }
+  100% { left: 0; }
+}
+
 p {
   color: black;
 }
