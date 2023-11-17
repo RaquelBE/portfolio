@@ -246,6 +246,7 @@ p {
   padding: 20px;
   background-color: rgb(252, 239, 228);
   position: relative; /* Añadido para posicionar el tooltip */
+  
 }
 
 .modal-button {
